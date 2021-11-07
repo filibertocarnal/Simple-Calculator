@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+	<title>Simple Calculator</title>
+</head>
+<main>
+	<h1>Simple Calculator</h1><br>
+	<h3>Add Numbers</h3>
+	<form>
+		<input type="text" name="number1" id="number1" placeholder="enter a whole number here">
+		+
+		<input type="text" name ="number2" id="number2" placeholder="enter a whole number here">
+		=
+		<p id="postAddSolution"></p>
+		<button type="button" onclick="addNumbers()">Add</button>
+	</form><br>
+	<h3>Subtract Numbers</h3>
+	<form>
+		<input type="text" name="number3" id="number3" placeholder="enter a whole number here">
+		-
+		<input type="text" name="number4" id="number4" placeholder="enter a whole number here">
+		=
+		<p id="postSubSolution"></p>
+		<button type="button" onclick="subNumbers()">Subtract</button>
+	</form><br>
+	<h3>Divide Numbers</h3>
+	<form>
+		<input type="text" name="number5" id="number5" placeholder="enter a whole number here">
+		/
+		<input type="text" name="number6" id="number6" placeholder="enter a whole number here">
+		=
+		<p id="postDivSolution"></p>
+		<button type="button" onclick="divNumbers()">Divide</button>
+	</form>
+	<script src="app.js"></script>
+</main>
+</html>
